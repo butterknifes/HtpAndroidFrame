@@ -1,0 +1,46 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.android.databinding'
+android {
+    compileSdkVersion 23
+    buildToolsVersion '23.0.2'
+    defaultConfig {
+        applicationId "com.example.htp.htpandroidframe"
+        minSdkVersion 15
+        targetSdkVersion 22
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    productFlavors {
+    }
+    sourceSets {
+        main {
+            java.srcDirs = ['src/main/java', 'src/main/java-gen']
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile files('libs/nineoldandroids-2.4.0.jar')
+    compile files('libs/butterknife-7.0.1.jar')
+    compile files('libs/universal-image-loader-1.9.4-with-sources.jar')
+    compile files('libs/xstream-1.4.7.jar')
+    compile files('libs/fastjson-1.2.5.jar')
+    compile files('libs/KJFrameForAndroid_v2.245.jar')
+    compile 'eu.the4thfloor.volley:com.android.volley:2015.05.28'
+    compile 'com.loopj.android:android-async-http:1.4.9'
+    compile 'com.google.zxing:core:3.2.0'
+    compile 'com.github.chrisbanes.photoview:library:1.2.4'
+    compile 'com.android.support:support-v4:23.1.1'
+    compile 'com.android.support:appcompat-v7:23.1.1'
+    compile 'com.networkbench.newlens.agent.android:nbs.newlens.agent:2.2.7'
+    compile 'de.greenrobot:greendao:2.1.0'
+    compile 'com.android.support:design:23.1.1'
+    compile 'com.android.support:cardview-v7:23.1.1'
+}

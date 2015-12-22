@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="black_overlay">#66000000</color>
+
+    <color name="background_tab_pressed">#6633B5E5</color>
+
+    <color name="text_selected">#888</color>
+    <color name="ldrawer_color">#FFFFFF</color>
+
+    <drawable name="transparent_background">#00000000</drawable>
+
+    <!-- 浅灰色 -->
+    <color name="gray_light">#e8e4e4</color>
+    <color name="grey">#C1CDCD</color>
+    <color name="light_gray_text">#949494</color>
+    <color name="line_gray">#D7D7D7</color>
+    <color name="dark_gray">#ff636363</color>
+    <color name="bg_bright_gray">#fffafafa</color>
+    <color name="bg_btn_dark_gray_normal">#ff4d4d4d</color>
+    <color name="bg_btn_gray_normal">#ffececec</color>
+    <color name="bg_btn_gray_pressed">#ffd7d7d7</color>
+    <color name="bg_gray">#ffe1e1e1</color>
+    <color name="bg_light_gray">#fff6f6f6</color>
+    <color name="bg_tag_gray">#ffbababa</color>
+    <color name="bg_tag_gray_prize_count">#ffcccccc</color>
+    <color name="font_blue_gray">#ff798b9a</color>
+    <color name="font_gray">#ff858585</color>
+    <color name="font_light_gray">#ffc0c0c0</color>
+    <color name="font_label">#ff2c2c2c</color>
+    <color name="border">#ffcecece</color>
+    <color name="bg_btn_disabled">#ff999999</color>
+    <color name="bg_buttons_cover">#aa333333</color>
+    <color name="bg_cover">#88333333</color>
+    <color name="bg_feed_spread_content">#ffeff0f0</color>
+    <!-- item 间隔 -->
+    <color name="item_line">#E1E1E1</color>
+    <item name="bg_form_item_pressed" type="color">@color/common_item_p</item>
+    <!--分割线-->
+    <color name="common_list_divider">#dfdfdf</color>
+    <!--红色-->
+    <color name="xingren_bai">#FFFFCD</color>
+    <color name="line_color">#999999</color>
+
+
+
+    <color name="bg_btn_blue_ios">#ff1287dc</color>
+    <color name="bg_btn_blue_normal">#ff02baff</color>
+    <color name="bg_btn_blue_pressed">#ff028ce6</color>
+    <color name="bg_hot_comment_header">#ff64adff</color>
+    <color name="bg_resume_skill_bg">#ff2a92ee</color>
+    <color name="bg_spread_dialog_bg">#fff3f3f3</color>
+    <color name="bg_tag">#ff7097d8</color>
+    <color name="bg_tag_prize_count">#ff6389c7</color>
+
+    <item name="bg_form_item_normal" type="color">@android:color/white</item>
+
+
+    <color name="bg_head_card">#ff37454e</color>
+
+
+    <item name="bg_page" type="color">@*android:color/white</item>
+
+    <color name="bg_pink">#fff56363</color>
+
+
+
+    <color name="bg_tag_red">#fff46262</color>
+    <color name="bg_tag_red_prize_count">#ffe74b4c</color>
+
+    <item name="bg_top_btn" type="color">@*android:color/white</item>
+
+    <color name="bg_top_message">#fffff8a4</color>
+    <color name="bg_top_tab">#ff242424</color>
+    <color name="bg_top_tab1">#ff242424</color>
+
+    <item name="bg_white" type="color">@android:color/white</item>
+
+
+    <color name="border_light">#ffededed</color>
+    <color name="button_gray">#ff666666</color>
+    <color name="button_pressed">#ff295191</color>
+    <color name="button_selected">#ff396fc9</color>
+    <color name="common_card_middle_right_button_txt_color">#ff0086b3</color>
+    <color name="common_item_p">#ffe8e8e8</color>
+    <color name="common_list_item_p">#ffeef1f7</color>
+    <color name="contact_show_blue">#ff3a6fc8</color>
+    <color name="content_border">#fff8f9fc</color>
+    <color name="content_border_line">#ffb9c4d4</color>
+    <color name="feed_comments_bg">#ffeeeeee</color>
+    <color name="feed_layout_pressed">#fff8fafd</color>
+    <color name="feed_new_card_bg">#fff3f5f7</color>
+    <color name="font_alert">#ffff7902</color>
+    <color name="font_button_normal">#ff028ce6</color>
+    <color name="font_button_pressed">#ff80c5f2</color>
+    <color name="font_clickable">#ff5477a7</color>
+    <color name="font_color_feed_time">#ffa6b1bf</color>
+    <color name="font_comment">#ff191919</color>
+    <color name="font_content">#ff081424</color>
+    <color name="font_current_contact_level">#fff1a063</color>
+
+
+    <item name="font_on_dark" type="color">@android:color/white</item>
+    <color name="font_red">#ffc22123</color>
+    <item name="font_tag_add" type="color">@color/font_gray</item>
+    <item name="font_tag_gray_prize_count" type="color">@color/font_on_dark</item>
+    <item name="font_tag_prize_count" type="color">@color/font_on_dark</item>
+    <item name="font_tag_red_prize_count" type="color">@color/font_on_dark</item>
+    <item name="font_top_title" type="color">@android:color/white</item>
+
+    <color name="font_un_clickable">#ff757575</color>
+    <color name="font_unclick_on_dark">#ff8bdfff</color>
+    <color name="font_verify">#ffffaf02</color>
+    <color name="form_item_lable_detail_txt_color">#ff555555</color>
+    <color name="gallery_top_bar_bg">#665a5a5a</color>
+    <color name="gossip_bg">#ffeef0f3</color>
+    <color name="gossip_detail_shadow_color">#a11a1a1a</color>
+    <color name="job_view_item_line">#ffd9d9d9</color>
+    <color name="job_view_list_bg">#ffe8ebee</color>
+    <color name="job_view_txt_color">#ff798b9a</color>
+    <color name="map_long_press_tips_bg">#a0000000</color>
+    <color name="meeting_font_bottom_color">#ffa6b1bf</color>
+    <color name="meeting_font_gray_color">#ff798b9a</color>
+    <color name="meeting_font_normal_color">#ff596875</color>
+    <color name="meeting_people_color">#fffd6138</color>
+    <color name="meeting_user_name_color">#ff0050ab</color>
+    <color name="msg_input_anony_bg">#ff323232</color>
+    <color name="msg_input_bg">#fff3f3f3</color>
+    <color name="msg_time_bg">#ffd1d1d1</color>
+
+
+
+    <color name="black_semi_transparent">#B2000000</color>
+    <color name="background">#e5e5e5</color>
+    <color name="half_black">#808080</color>
+    <color name="white_pressed">#f1f1f1</color>
+    <color name="pink_pressed">#ec407a</color>
+    <color name="blue_semi_transparent">#805677fc</color>
+    <color name="blue_semi_transparent_pressed">#80738ffe</color>
+
+    <color name="item_bg">#efeff4</color>
+
+    <color name="list_background">#2c2c2c</color>
+    <color name="list_background_pressed">#fa3e36</color>
+
+
+
+    <!-- 常用颜色值 -->
+    <color name="white40">#40FFFFFF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="gray">#808080</color>
+    <color name="red">#FF0000</color>
+    <color name="gold">#FFD700</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="green">#008000</color>
+    <color name="purple">#800080</color>
+    <color name="pink">#FFC0CB</color>
+    <color name="orange">#FFA500</color>
+    <color name="lemonyellow">#FFFACD</color>
+    <color name="graywhite">#F5F5F5</color>
+    <color name="grayslate">#708090</color>
+    <color name="lightblue">#0083FF</color>
+
+    <color name="main_green">#40AA53</color>
+    <color name="main_gray">#9A9A9A</color>
+    <color name="main_black">#333</color>
+    <color name="main_purple">#576B95</color>
+    <color name="actionbar_background">@color/main_green</color>
+    <color name="transparent">#00000000</color>
+    <color name="window_background">#EBEBEB</color>
+
+    <color name="comment_yellow">#FFFFEE</color>
+
+    <color name="link_color">#1d6a2a</color>
+
+    <color name="main_background">#ffebedf0</color>
+    <color name="list_divider_color">#DADADA</color>
+    <color name="list_item_background_normal">@color/white</color>
+    <color name="teamlist_item_background_normal">#ffffff</color>
+    <color name="list_item_background_pressed">#efefef</color>
+
+    <color name="drawer_menu_item_background_normal">#e2e2e2</color>
+    <color name="drawer_menu_item_background_pressed">#ebeceb</color>
+
+    <color name="actionbar_item_background_normal">@color/transparent</color>
+    <color name="actionbar_item_background_pressed">#0b751e</color>
+
+    <color name="ui_dialog_divider">@color/list_divider_color</color>
+    <color name="ui_dialog_list_text">#5E5E5E</color>
+    <color name="text_dark">#af000000</color>
+    <color name="text_light">#3f000000</color>
+    <color name="light_gray">#1a000000</color>
+    <color name="lightest_gray">#0a000000</color>
+    <color name="bg_touch">@color/lightest_gray</color>
+
+    <color name="main_link_text_color">#ffbedfff</color>
+    <color name="timeline_clickable_text_highlighted_background">#ffbedfff</color>
+
+    <!-- 下拉刷新时，颜色值 -->
+    <color name="swiperefresh_color1">#ff00ddff</color>
+    <color name="swiperefresh_color2">#ffffbb33</color>
+    <color name="swiperefresh_color3">#ffff4444</color>
+    <color name="swiperefresh_color4">#ffaa66cc</color>
+
+    <color name="project_listitem_title">#294fa1</color>
+    <color name="project_listitem_description">#515151</color>
+    <color name="project_listitem_someinfo">#b6b6b6</color>
+
+
+    <color name="project_detail_item">#e2e0e0</color>
+
+    <color name="my_information_option_pressed">#18be40</color>
+
+    <!-- 反馈 -->
+    <color name="text_color_account_info">#ff5e5546</color>
+    <color name="edittext_hint_color">#ffa9a9a9</color>
+
+    <!-- 日历dialog -->
+    <color name="circle_background">#fff2f2f2</color>
+    <color name="line_background">#ffcccccc</color>
+    <color name="done_text_color_normal">#ff333333</color>
+    <color name="done_text_color_disabled">#ffcccccc</color>
+    <color name="blue">#ff33cc33</color>
+    <color name="darker_blue">#ff00cc99</color>
+    <color name="date_picker_text_normal">#ff999999</color>
+    <color name="calendar_header">#ff999999</color>
+    <color name="date_picker_view_animator">#fff2f2f2</color>
+
+    <color name="ampm_text_color">#8c8c8c</color>
+    <color name="numbers_text_color">#8c8c8c</color>
+
+    <color name="transparent_black">#7F000000</color>
+
+    <color name="spinner_background">#464646</color>
+    <color name="spinner_background_press">#6baf77</color>
+</resources>

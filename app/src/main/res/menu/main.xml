@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.text.text.MainActivity">
+
+    <item
+        android:title="@string/about_us"
+        android:id="@+id/action_about"
+        android:icon="@drawable/about_icon"
+        android:orderInCategory="100"
+        app:showAsAction="never|withText"
+        />
+    <item
+
+        android:id="@+id/action_updata"
+        android:icon="@drawable/update_icon"
+        android:orderInCategory="100"
+        app:showAsAction="never|withText"
+        android:title="@string/updata_text"/>
+
+</menu>
